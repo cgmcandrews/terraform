@@ -49,27 +49,23 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.8.5 // indirect
 	github.com/hashicorp/aws-sdk-go-base v0.6.0
-	github.com/hashicorp/consul v0.0.0-20171026175957-610f3c86a089
+	github.com/hashicorp/consul/api v1.7.0
 	github.com/hashicorp/errwrap v1.0.0
 	github.com/hashicorp/go-azure-helpers v0.12.0
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/hashicorp/go-getter v1.4.2-0.20200106182914-9813cbd4eb02
-	github.com/hashicorp/go-hclog v0.9.2
-	github.com/hashicorp/go-immutable-radix v0.0.0-20180129170900-7f3cd4390caa // indirect
+	github.com/hashicorp/go-hclog v0.12.0
 	github.com/hashicorp/go-msgpack v0.5.4 // indirect
-	github.com/hashicorp/go-multierror v1.0.0
+	github.com/hashicorp/go-multierror v1.1.0
 	github.com/hashicorp/go-plugin v1.3.0
 	github.com/hashicorp/go-retryablehttp v0.5.2
-	github.com/hashicorp/go-rootcerts v1.0.0
-	github.com/hashicorp/go-sockaddr v0.0.0-20180320115054-6d291a969b86 // indirect
+	github.com/hashicorp/go-rootcerts v1.0.2
 	github.com/hashicorp/go-tfe v0.8.1
 	github.com/hashicorp/go-uuid v1.0.1
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/hcl v0.0.0-20170504190234-a4b07c25de5f
 	github.com/hashicorp/hcl/v2 v2.6.1-0.20200925151948-a0de289809fb
-	github.com/hashicorp/memberlist v0.1.0 // indirect
-	github.com/hashicorp/serf v0.0.0-20160124182025-e4ec8cc423bb // indirect
 	github.com/hashicorp/terraform-config-inspect v0.0.0-20191212124732-c6ae6269b9d7
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d // indirect
@@ -84,10 +80,9 @@ require (
 	github.com/lusis/go-artifactory v0.0.0-20160115162124-7e4ce345df82
 	github.com/masterzen/simplexml v0.0.0-20190410153822-31eea3082786 // indirect
 	github.com/masterzen/winrm v0.0.0-20200615185753-c42b5136ff88
-	github.com/mattn/go-colorable v0.1.1
-	github.com/mattn/go-isatty v0.0.5
+	github.com/mattn/go-colorable v0.1.6
+	github.com/mattn/go-isatty v0.0.12
 	github.com/mattn/go-shellwords v1.0.4
-	github.com/miekg/dns v1.0.8 // indirect
 	github.com/mitchellh/cli v1.1.0
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
 	github.com/mitchellh/copystructure v1.0.0
@@ -104,7 +99,7 @@ require (
 	github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c // indirect
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
-	github.com/posener/complete v1.2.1
+	github.com/posener/complete v1.2.3
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829 // indirect
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529 // indirect
 	github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d // indirect
